@@ -1,0 +1,14 @@
+[package]
+name = "navi-rust-cli"
+version = "0.1.0"
+edition = "2021"
+description = "Interactive fuzzy directory navigator powered by Television's frizbee matcher"
+license = "MIT"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+crossterm = "0.28"
+dirs = "6"
+frizbee = "0.13"
+walkdir = "2.5"
